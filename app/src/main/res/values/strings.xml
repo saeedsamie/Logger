@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">Logger</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_user">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_user">This username address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing username
+        completions."
+    </string>
+    <string name="login_api">api/v1/login</string>
+    <string name="logout_api">api/v1/logout</string>
+    <string name="dashboard_tab_api">api/v1/dashboard/tabs</string>
+    <string name="charts_info_api">api/v1/dashboard/tabs</string>
+
+    <string name="title_activity_main">Dashboard</string>
+    <string name="security_events">Security Events</string>
+    <string name="parameters">Parameters</string>
+    <string name="address"><![CDATA[> ADDRESS]]></string>
+    <string name="source_ip">Source IP</string>
+    <string name="destination_ip">Destination IP</string>
+    <string name="port"><![CDATA[> PORT]]></string>
+    <string name="source_port">Source Port</string>
+    <string name="destination_port">Destination Port</string>
+    <string name="search_profile">Search Profile</string>
+    <string name="advance_search">Advance Search</string>
+    <string name="event_specifications"><![CDATA[> EVENT SPECIFICATIONS]]></string>
+    <string name="log_source">Log source:</string>
+    <string name="is">Is</string>
+    <string name="not">Not</string>
+    <string name="log_source_hint">Log source</string>
+    <string name="payload">Payload:</string>
+    <string name="payload_hint">Payload</string>
+    <string name="username">Username:</string>
+    <string name="username_hint">Username</string>
+    <string name="data_source">Data source:</string>
+    <string name="data_source_hint">Data source</string>
+    <string name="event_type">Event type:</string>
+    <string name="event_type_hint">Event type</string>
+    <string name="protocol">Protocol:</string>
+    <string name="protocol_hint">Enter protocol here</string>
+    <string name="device_type">Device type</string>
+    <string name="category">Category</string>
+    <string name="sub_category">Sub Category</string>
+    <string name="per_page">Per Page</string>
+    <string name="event_name">Event Name</string>
+    <string name="generated_at">Generated At</string>
+    <string name="table_protocol">Protocol</string>
+    <string name="received_at">Received At</string>
+    <string name="search_results">Search Results</string>
+    <string name="search_parameters">Search Parameters</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="prompt_server_url">Server URL</string>
+    <string name="defult_url_server">192.168.101.192</string>
+    <string name="login_header">Header</string>
+    <string name="default_username">admin</string>
+    <string name="default_password">\@sss123</string>
+    <string-array name="operations">
+            <item>And</item>
+            <item>Or</item>
+            <item>Xor</item>
+            <item>Not</item>
+        </string-array>
+
+    <string-array name="device_type">
+            <item>None</item>
+            <item>Alarm</item>
+            <item>Anomaly Detection</item>
+            <item>Antivirus</item>
+            <item>Application</item>
+            <item>Application Firewall</item>
+            <item>Authentication and DHCP</item>
+            <item>Data Protection</item>
+            <item>Database</item>
+            <item>Endpoint Security</item>
+            <item>Firewall</item>
+            <item>Honeypot</item>
+            <item>Infrastructure Monitoring</item>
+            <item>Intrusion Detected</item>
+            <item>Intrusion Prevention</item>
+            <item>Mail Security</item>
+            <item>Mail Server</item>
+            <item>Management Platform</item>
+            <item>Network Access Control</item>
+            <item>Network Discovery</item>
+            <item>Operating System</item>
+            <item>Other Devices</item>
+            <item>Proxy</item>
+            <item>Remote Application Access</item>
+            <item>Router/Switch</item>
+            <item>Server</item>
+            <item>Unified Threat Management</item>
+            <item>VPN</item>
+            <item>Vulnerability Scanner</item>
+            <item>Web Server</item>
+            <item>Wireless Security/Management</item>
+        </string-array>
+
+    <string-array name="category">
+            <item>Select</item>
+            <item>Select2</item>
+        </string-array>
+
+    <string-array name="per_page">
+            <item>10</item>
+            <item>25</item>
+            <item>50</item>
+            <item>100</item>
+        </string-array>
+
+    </resources>

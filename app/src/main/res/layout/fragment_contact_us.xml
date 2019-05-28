@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.saeedspc.logger_androidapp.Fragments.ContactUsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="info@ssyestems.ir\n\n021-88991832\n021-88990372\n021-88990375"
+        android:textSize="25dp"
+        android:textColor="@color/colorWhite"/>
+
+</FrameLayout>
